@@ -1,0 +1,88 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    justify-self: center;
+    margin: auto;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format(truetype);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 0px;
+    width: 300px;
+    height: 480px;
+    background-color: hsl(0, 0%, 12%);
+    justify-items: center;
+    margin: 100px;
+    padding: 25px;
+    border-radius: 5%;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.details {
+    text-align: center;
+    padding: 0px;
+    margin: -120px;
+}
+
+.head {
+    font-size: 15px;
+    font-family: Inter;
+    padding: 0px;
+    margin: -10px;
+}
+
+.location {
+    font-size: 12px;
+    font-family: Inter;
+    padding: -10px;
+    margin: -10px 0px 0px 0px;
+    color: hsl(75, 94%, 57%);
+}
+
+.para {
+    font-size: 12px;
+    font-family: Inter;
+    padding: opx;
+    margin: 0px;
+    color: hsl(0, 0%, 80%);
+    font-weight: 300;
+}
+
+.buttons{
+    margin: -150px;;
+}
+
+
+ul {
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0px;     
+}
+
+button {
+  width: 280px;
+  background-color: hsl(0, 0%, 20%);  /* dark fill */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 15px 0px 0px 0px;
+}
